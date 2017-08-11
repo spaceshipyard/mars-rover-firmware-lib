@@ -1,0 +1,25 @@
+{
+  "name": "DallasTemperature",
+  "keywords": "mars, rover, lib",
+  "description": "Arduino library for mars rover",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/spaceshipyard/mars-rover-firmware-lib.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Denis Rykovanov",
+      "email": "denis.rykovanov@mail.ru",
+      "url": "http://fakesite.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  {
+  },
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
