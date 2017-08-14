@@ -15,17 +15,17 @@ int strToDirection(String str) {
   return RELEASE;
 }
 
-Controller::Controller(const MovingPlatform* aPlatform): platform(aPlatform) {
+MarsRoverController::Controller(const MovingPlatform* aPlatform): platform(aPlatform) {
 }
 
-void Controller::setup() {
+void MarsRoverController::setup() {
     Serial.println("controller setup started");
     Serial.println(this->platform->getName());
     this->platform->setup();
     Serial.println("controller setup completed");
 }
 
-void Controller::onTick() {
+void MarsRoverController::onTick() {
     while (Serial.available() > 0) {
       String cmd = Serial.readStringUntil(':');
       Serial.println(cmd);
