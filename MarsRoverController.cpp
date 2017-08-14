@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <MovingPlatform.h>
-#include <Controller.h>
+#include <MarsRoverController.h>
 
 
 int strToDirection(String str) {
