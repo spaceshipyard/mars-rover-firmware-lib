@@ -11,7 +11,7 @@ class MarsRoverController {
 private:
   const MovingPlatform* platform;
 public:
-  MarsRoverController(MovingPlatform* aPlatform);
+  MarsRoverController(const MovingPlatform* aPlatform);
 
   void setup();
   void onTick();
