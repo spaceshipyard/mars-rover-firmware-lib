@@ -15,7 +15,7 @@ int strToDirection(String str) {
   return RELEASE;
 }
 
-MarsRoverController::Controller(const MovingPlatform* aPlatform): platform(aPlatform) {
+MarsRoverController::MarsRoverController(const MovingPlatform* aPlatform): platform(aPlatform) {
 }
 
 void MarsRoverController::setup() {
