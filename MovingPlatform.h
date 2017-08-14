@@ -5,7 +5,7 @@
 
 #define FORWARD 1
 #define BACKWARD 2
-#define BRAKE 3
+//#define BRAKE 3
 #define RELEASE 4
 #define uint8_t byte
 
@@ -18,6 +18,7 @@ public:
   virtual void rotateToLeft() {};
   virtual void setRightSpeed(byte speed) {};
   virtual void setLeftSpeed(byte speed) {};
+  virtual String getName() { return "undefined"; };
 };
 
 

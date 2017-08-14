@@ -9,11 +9,9 @@
 
 class Controller {
 private:
-  MovingPlatform platform;
+  const MovingPlatform* platform;
 public:
-  Controller(MovingPlatform& aPlatform) : platform{aPlatform} {
-  }
-
+  Controller(const MovingPlatform* aPlatform);
   void setup();
   void onTick();
 
